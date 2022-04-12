@@ -1,0 +1,59 @@
+*
+{
+  margin: 0px;
+  box-sizing: border-box;
+}
+body 
+{
+  background-color: #2D2640;
+}
+
+/* For Image.jsx */
+.navBarul
+{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+}
+.navbarImg
+{
+  margin-top: -6px; 
+  margin-left: -30px;
+  flex: 1;
+}
+.listItem
+{
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  height: 10px;
+}
+.listItem:hover
+{
+  text-decoration: underline;
+}
+
+/* For Home.jsx */
+.login
+{
+  display: flex;
+  justify-content: center;
+  /* background-color: white; */
+  height: 67vh;
+  align-items: center ;
+  width: 100vw;
+}
+.loginContent
+{
+  /* background-color: white; */
+  height: 430px;
+  width: 350px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.87);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3)
+}
